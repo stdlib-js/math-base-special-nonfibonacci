@@ -146,6 +146,20 @@ for ( i = 1; i < 100; i++ ) {
 
 <!-- /.references -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/math/base/special/fibonacci`][@stdlib/math/base/special/fibonacci]: compute the nth Fibonacci number.
+
+</section>
+
+<!-- /.related -->
+
 <!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
 
 
@@ -210,6 +224,12 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [@gould:1965a]: http://www.fq.math.ca/Scanned/3-3/gould.pdf
 
 [@farhi:2011a]: https://arxiv.org/abs/1105.1127
+
+<!-- <related-links> -->
+
+[@stdlib/math/base/special/fibonacci]: https://github.com/stdlib-js/math-base-special-fibonacci
+
+<!-- </related-links> -->
 
 </section>
 
