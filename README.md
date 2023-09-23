@@ -71,7 +71,7 @@ where `φ` is the [golden ratio][golden-ratio].
 To use in Observable,
 
 ```javascript
-nonfibonacci = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-nonfibonacci@umd/browser.js' )
+nonfibonacci = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-nonfibonacci@v0.1.0-umd/browser.js' )
 ```
 
 To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
@@ -83,7 +83,7 @@ var nonfibonacci = require( 'path/to/vendor/umd/math-base-special-nonfibonacci/i
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-nonfibonacci@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-nonfibonacci@v0.1.0-umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -150,7 +150,7 @@ var v = nonfibonacci( NaN );
 <!DOCTYPE html>
 <html lang="en">
 <body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-nonfibonacci@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-nonfibonacci@v0.1.0-umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
