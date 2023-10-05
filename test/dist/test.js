@@ -29,7 +29,7 @@ var nonfibonacci = require( './../../dist' );
 // FIXTURES //
 
 // Expected values are from https://oeis.org/A001690:
-var expected = require( './../..xtures/expected.json' );
+var expected = require( './../fixtures/expected.json' );
 
 
 // TESTS //
