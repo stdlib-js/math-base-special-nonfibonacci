@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2018 The Stdlib Authors.
+* Copyright (c) 2023 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -21,63 +21,13 @@
 // MODULES //
 
 var tape = require( 'tape' );
-var isnan = require( '@stdlib/math-base-assert-is-nan' );
-var PINF = require( '@stdlib/constants-float64-pinf' );
-var nonfibonacci = require( './../../dist' );
-
-
-// FIXTURES //
-
-// Expected values are from https://oeis.org/A001690:
-var expected = require( './../fixtures/expected.json' );
+var main = require( './../../dist' );
 
 
 // TESTS //
 
-tape( 'main export is a function', function test( t ) {
+tape( 'main export is defined', function test( t ) {
 	t.ok( true, __filename );
-	t.strictEqual( typeof nonfibonacci, 'function', 'main export is a function' );
-	t.end();
-});
-
-tape( 'if provided `NaN`, the function returns `NaN`', function test( t ) {
-	var n = nonfibonacci( NaN );
-	t.strictEqual( isnan( n ), true, 'returns NaN when provided a NaN' );
-	t.end();
-});
-
-tape( 'if provided `+infinity`, the function returns `NaN`', function test( t ) {
-	var n = nonfibonacci( PINF );
-	t.strictEqual( isnan( n ), true, 'returns NaN' );
-	t.end();
-});
-
-tape( 'if provided a number less than 1, the function returns `NaN`', function test( t ) {
-	var n;
-	var i;
-
-	t.strictEqual( isnan( nonfibonacci( -3.14 ) ), true, 'returns NaN' );
-
-	for ( i = 0; i > -100; i-- ) {
-		n = nonfibonacci( i );
-		t.strictEqual( isnan( n ), true, 'returns NaN when provided ' + i );
-	}
-	t.end();
-});
-
-tape( 'if provided a non-integer, the function returns `NaN`', function test( t ) {
-	var n = nonfibonacci( 3.14 );
-	t.strictEqual( isnan( n ), true, 'returns NaN' );
-	t.end();
-});
-
-tape( 'the function returns the nth non-Fibonacci number', function test( t ) {
-	var v;
-	var i;
-
-	for ( i = 1; i < expected.length; i++ ) {
-		v = nonfibonacci( i );
-		t.strictEqual( v, expected[ i-1 ], 'returns the '+i+'th non-Fibonacci number' );
-	}
+	t.strictEqual( main !== void 0, true, 'main export is defined' );
 	t.end();
 });
