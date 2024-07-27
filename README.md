@@ -69,6 +69,11 @@ where `φ` is the [golden ratio][golden-ratio].
 ## Usage
 
 ```javascript
+import nonfibonacci from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-nonfibonacci@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-base-special-nonfibonacci/tags). For example,
+
+```javascript
 import nonfibonacci from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-nonfibonacci@v0.3.0-esm/index.mjs';
 ```
 
@@ -128,7 +133,7 @@ var v = nonfibonacci( NaN );
 <body>
 <script type="module">
 
-import nonfibonacci from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-nonfibonacci@v0.3.0-esm/index.mjs';
+import nonfibonacci from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-nonfibonacci@esm/index.mjs';
 
 var v;
 var i;
