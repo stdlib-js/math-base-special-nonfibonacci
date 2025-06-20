@@ -4,7 +4,17 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-04-01)
+## Unreleased (2025-06-20)
+
+<section class="bug-fixes">
+
+### Bug Fixes
+
+-   [`8dfe021`](https://github.com/stdlib-js/stdlib/commit/8dfe0212136eb297a3d1842a337d179034bdf743) - clean-up nonfibonacci implementation and remove unused deps
+
+</section>
+
+<!-- /.bug-fixes -->
 
 <section class="issues">
 
@@ -24,6 +34,8 @@ This release closes the following issue:
 
 <details>
 
+-   [`8dfe021`](https://github.com/stdlib-js/stdlib/commit/8dfe0212136eb297a3d1842a337d179034bdf743) - **fix:** clean-up nonfibonacci implementation and remove unused deps _(by Philipp Burckhardt)_
+-   [`5f73301`](https://github.com/stdlib-js/stdlib/commit/5f73301a8509cc423a06b02140c4e316fd02ff49) - **docs:** minor clean-up _(by Philipp Burckhardt)_
 -   [`a1e230f`](https://github.com/stdlib-js/stdlib/commit/a1e230f29297caa89880e9c194c615a0400fb7bc) - **chore:** clean up cppcheck-suppress comments _(by Karan Anand)_
 -   [`e9f9513`](https://github.com/stdlib-js/stdlib/commit/e9f951387dd4387dc0a7b4acfadc59c5b2541736) - **bench:** update random value generation [(#6430)](https://github.com/stdlib-js/stdlib/pull/6430) _(by Harsh)_
 -   [`886e85a`](https://github.com/stdlib-js/stdlib/commit/886e85abd4bd0515526e273919b43e00a93d7264) - **docs:** fix C lint errors [(#5408)](https://github.com/stdlib-js/stdlib/pull/5408) _(by Neeraj Pathak)_
