@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-08-25)
+## Unreleased (2025-11-06)
 
 <section class="bug-fixes">
 
@@ -46,13 +46,14 @@ This release closes the following issue:
 
 <details>
 
+-   [`263d50a`](https://github.com/stdlib-js/stdlib/commit/263d50a4cd7ff1b888d3f3de5c3be590dec839ad) - **chore:** add structured package data for `math/base/special/nonfibonacci` [(#8403)](https://github.com/stdlib-js/stdlib/pull/8403) _(by Manvith M)_
 -   [`63cf5ea`](https://github.com/stdlib-js/stdlib/commit/63cf5eab0c3676f67939173afa3cdcac61163eb8) - **refactor:** modify C implementation to accept `double` instead of `int32` in `math/base/special/nonfibonacci` [(#7959)](https://github.com/stdlib-js/stdlib/pull/7959) _(by Gunj Joshi)_
 -   [`a51fa22`](https://github.com/stdlib-js/stdlib/commit/a51fa22399f36b4d83ba0d189d297af4aa429354) - **docs:** minor clean-up _(by Philipp Burckhardt)_
 -   [`dd6d9cf`](https://github.com/stdlib-js/stdlib/commit/dd6d9cff0105270f0664490f3c89b36d4df89032) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`8dfe021`](https://github.com/stdlib-js/stdlib/commit/8dfe0212136eb297a3d1842a337d179034bdf743) - **fix:** clean-up nonfibonacci implementation and remove unused deps _(by Philipp Burckhardt)_
 -   [`5f73301`](https://github.com/stdlib-js/stdlib/commit/5f73301a8509cc423a06b02140c4e316fd02ff49) - **docs:** minor clean-up _(by Philipp Burckhardt)_
 -   [`a1e230f`](https://github.com/stdlib-js/stdlib/commit/a1e230f29297caa89880e9c194c615a0400fb7bc) - **chore:** clean up cppcheck-suppress comments _(by Karan Anand)_
--   [`e9f9513`](https://github.com/stdlib-js/stdlib/commit/e9f951387dd4387dc0a7b4acfadc59c5b2541736) - **bench:** update random value generation [(#6430)](https://github.com/stdlib-js/stdlib/pull/6430) _(by Harsh)_
+-   [`e9f9513`](https://github.com/stdlib-js/stdlib/commit/e9f951387dd4387dc0a7b4acfadc59c5b2541736) - **bench:** update random value generation [(#6430)](https://github.com/stdlib-js/stdlib/pull/6430) _(by Harsh Yadav)_
 -   [`886e85a`](https://github.com/stdlib-js/stdlib/commit/886e85abd4bd0515526e273919b43e00a93d7264) - **docs:** fix C lint errors [(#5408)](https://github.com/stdlib-js/stdlib/pull/5408) _(by Neeraj Pathak)_
 -   [`f13ddb2`](https://github.com/stdlib-js/stdlib/commit/f13ddb2eb01e5520b6fa98634bbf9de76793036f) - **style:** use spaces for alignment in C comments _(by Philipp Burckhardt)_
 -   [`8bf8285`](https://github.com/stdlib-js/stdlib/commit/8bf8285aba0ecbd00ae145c4c5c098cd28135814) - **chore:** minor clean-up _(by Philipp Burckhardt)_
@@ -69,12 +70,13 @@ This release closes the following issue:
 
 ### Contributors
 
-A total of 6 people contributed to this release. Thank you to the following contributors:
+A total of 7 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Gunj Joshi
--   Harsh
+-   Harsh Yadav
 -   Karan Anand
+-   Manvith M
 -   Neeraj Pathak
 -   Philipp Burckhardt
 
